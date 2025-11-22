@@ -1,16 +1,16 @@
-# React + Vite
+MovieApp – TMDB-Powered Movie Browser
+Description:  Developed a fully responsive movie browsing application using React (Vite) and the TMDB API, designed to deliver a seamless user experience across devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features:
 
-Currently, two official plugins are available:
+🔎 Search & Pagination – Dynamic search functionality with page navigation for large datasets.
+⭐ Favorites Management – Users can mark movies as favorites, stored locally with localStorage, and view them on a dedicated page.
+🖥️ Responsive UI/UX – Built with modern CSS grid and flexbox layouts for mobile‑first design.
+🛠️ Routing – Implemented React Router v6 for smooth navigation between Home and Favorites pages.
+Tech Stack: React, Vite, TMDB API, React Router v6, CSS3, LocalStorage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Outcome:  Delivered a complete movie discovery platform with intuitive navigation, personalization features, and responsive design. This project demonstrates proficiency in API integration, state management with hooks, and clean component architecture — making it a strong addition to my portfolio.
 
-## React Compiler
+Links:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 Live Demo (Vercel): https://movie-app-tmdb-jet.vercel.app/
